@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500;600&family=Barlow:wght@100;600&family=Open+Sans&family=PT+Sans&family=Roboto+Slab&display=swap");
+
+/* font-family: 'Barlow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto Slab', serif; */
+body {
+  background-image: url("darren-nunis-cxE7SXKnzv0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "PT Sans", sans-serif;
+
+  color: rgb(7, 7, 7);
+  box-sizing: border-box;
+}
+.quote-box {
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.quote-box h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.quote-box h2::after {
+  content: "";
+  width: 75px;
+  height: 3px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+
+  transform: translate(-50%);
+  background: rgb(229, 23, 222);
+  border-radius: 3px;
+}
+.quote-box blockquote {
+  font-size: 15px;
+  min-height: 20px;
+}
+.quote-box blockquote::after,
+.quote-box blockquote::before {
+  content: '"';
+}
+span {
+  display: block;
+  margin-top: 10px;
+  float: center;
+  position: relative;
+}
+span::after{
+  content: "";
+  width: 15px;
+  height: 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  transform: translate(-50%);
+  background: rgb(229, 23, 222);
+  border-radius: 3px;
+
+}
+div {
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+button {
+  background: rgb(161, 13, 156);
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid rgb(229, 23, 222);
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  cursor: pointer;
+}
